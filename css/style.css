@@ -1,0 +1,136 @@
+/**global starts**/
+body{
+	background-color:#e6f5ff;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+/**global Ends**/
+/**Header starts**/
+header{
+	width: 90%;
+	margin-top: 15px;
+	margin: 0 auto;
+
+}
+.wrapper{
+	overflow: hidden;
+	background-color: white;
+	width: 90%;
+}
+.img{
+	float: left;
+	width: 20%;
+	size: 40px;
+	
+}
+nav{
+	float:right;
+	width: 75%;
+
+}
+header nav ul{
+	float: left;
+	display: inline;
+	
+}
+nav ul li{
+	text-transform: uppercase;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background-color: skyblue;
+}
+/**header ends here**/
+/**Background starts here**/
+.banner{
+	width: 90%;
+	margin: 0 auto;
+}
+.banner_img {
+    background-image: url(../images/dreamhouse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_des {
+    width: 25%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding: 30px 25px 25px;
+    background-color: rgba(65, 69, 81, 0.6);
+}
+.banner_des p{
+
+margin-top: 0px;
+margin-bottom: 16px;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size:16px;
+color: white;
+ 
+}
+
+.banner_des button{
+
+font-family: 'Poppins', sans-serif;
+font-weight: 200;
+font-size:13px;
+color: white;
+background-color: #414551;
+border-style: none;
+border-radius: 5px;
+width: 140px;
+height: 35px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.banner_des button:hover{
+
+	background-color: skyblue;
+	padding: 10px;
+}
+/**Banner Ends Here**/
+/**Services starts Here**/
+.service{
+	width: 90%;
+	margin: 0 auto;
+}
+.item {
+    width: 21%;
+    float: left;
+    text-align: center;
+    margin: 25px 45px;
+}
+.item img{
+	width: 100%;
+}
+/**Services Ends Here**/
+/**Footer starts here**/
+.copyright {
+    text-align: center;
+}
+.copyright h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #382E2D;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.copyright p {
+    font-family: sans-serif;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/**Footer ends here**/
